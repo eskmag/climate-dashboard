@@ -236,7 +236,7 @@ with st.expander("📊 Model Performance & Reliability"):
     st.info("💡 **Note:** These are simple linear projections based on historical trends. Actual climate change involves complex, non-linear processes. Use these projections as indicative trends rather than precise predictions.")
 
 # Forecast data table
-with st.expander("� View Detailed Forecast Data"):
+with st.expander("View Detailed Forecast Data"):
     forecast_df = pd.DataFrame({
         'Year': X_future['year'],
         'Temperature Forecast (°C)': temp_pred_future.round(1),
