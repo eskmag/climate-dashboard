@@ -46,4 +46,4 @@ with col2:
 st.markdown("---")
 
 st.info("📍 Built with Python, Streamlit, and Open-Meteo data.")
-st.caption("© 2025 - Bergen Climate Dashboard by [Your Name or GitHub Handle]")
+st.caption("© 2025 - Bergen Climate Dashboard by Eskil Magnussen")
